@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="toggle">
+        <span class="select">Select:</span>
+        <div class="btns">
+          <button class="color-btn active">color</button>
+          <button class="color-btn">backgroundColor</button>
+        </div>
+      </div>
+      <div class="workarea">
+        <div class="slides">
+          <input type="range" min="0" value="0" max="255" class="slide red" />
+          <input type="range" min="0" value="0" max="255" class="slide green" />
+          <input type="range" min="0" value="0" max="255" class="slide blue" />
+        </div>
+        <div class="board">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem
+          dicta perferendis reprehenderit tenetur repellendus illo maiores
+          itaque vero iure, error incidunt tempore omnis consequuntur, et,
+          impedit libero esse aspernatur?
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
